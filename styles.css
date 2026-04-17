@@ -77,3 +77,25 @@ tr:hover { background-color: #0f172a; }
 .proyecto-card p { color: #cbd5e1; font-size: 0.9rem; line-height: 1.5; margin-bottom: 15px; }
 .proyecto-card a { color: #38bdf8; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
 .proyecto-card a:hover { text-decoration: underline; }
+.contacto-contenedor { display: flex; gap: 40px; }
+.formulario, .info-contacto { background-color: #1e293b; padding: 30px; border-radius: 12px; border: 1px solid #334155; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3); }
+.formulario { flex: 2; }
+.info-contacto { flex: 1; height: fit-content; }
+.form-row { display: flex; gap: 20px; margin-bottom: 20px; }
+.form-group { flex: 1; display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.form-row .form-group { margin-bottom: 0; }
+.form-group label { color: #cbd5e1; font-size: 0.9rem; font-weight: bold; }
+.form-group input, .form-group select, .form-group textarea { background-color: #0f172a; border: 1px solid #334155; padding: 12px; color: #fff; border-radius: 6px; outline: none; transition: border-color 0.3s; }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #38bdf8; }
+.btn-enviar { background-color: #38bdf8; color: #0f172a; padding: 15px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%; font-size: 1rem; transition: background 0.3s; }
+.btn-enviar:hover { background-color: #7dd3fc; }
+.info-contacto h3 { color: #fff; margin-bottom: 25px; border-bottom: 2px solid #38bdf8; padding-bottom: 5px; display: inline-block; }
+.info-contacto ul { list-style: none; }
+.info-contacto li { margin-bottom: 20px; display: flex; align-items: center; gap: 15px; color: #cbd5e1; }
+.icono-contacto { background-color: #0f172a; width: 35px; height: 35px; display: flex; justify-content: center; align-items: center; border-radius: 6px; border: 1px solid #334155; color: #38bdf8; }
+footer { background-color: #1e293b; padding: 40px 50px 20px; border-top: 1px solid #334155; margin-top: 60px; }
+.footer-content { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; margin-bottom: 30px; }
+.redes-sociales { display: flex; gap: 15px; }
+.redes-sociales a { background-color: #0f172a; color: #38bdf8; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; border-radius: 6px; border: 1px solid #334155; text-decoration: none; font-weight: bold; transition: all 0.3s; }
+.redes-sociales a:hover { background-color: #38bdf8; color: #0f172a; }
+.footer-bottom { text-align: center; color: #94a3b8; font-size: 0.9rem; max-width: 1200px; margin: 0 auto; border-top: 1px solid #334155; padding-top: 20px; }

@@ -117,6 +117,65 @@
                 </figure>
             </div>
         </section>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p class="subtitulo-contacto">Envíame un mensaje</p>
+            <div class="contacto-contenedor">
+                <form action="#" class="formulario">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="" disabled selected>Selecciona un asunto</option>
+                            <option value="trabajo">Propuesta de trabajo</option>
+                            <option value="freelance">Proyecto Freelance</option>
+                            <option value="saludo">Solo saludar</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+                </form>
+
+                <aside class="info-contacto">
+                    <h3>Información de contacto</h3>
+                    <ul>
+                        <li><span class="icono-contacto">✉</span> benjamin.colicoi@inacapmail.cl</li>
+                        <li><span class="icono-contacto">📍</span> Concepción, Chile</li>
+                        <li><span class="icono-contacto">📱</span> +56 9 1234 5678</li>
+                        <li><span class="icono-contacto">💻</span> github.com/BenjaminColicoi</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main> <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="logo-icono">BC</div>
+                <span>Benjamin Colicoi Lizama</span>
+            </div>
+            <div class="redes-sociales">
+                <a href="#" aria-label="GitHub">GH</a>
+                <a href="#" aria-label="LinkedIn">LI</a>
+                <a href="#" aria-label="Twitter">TW</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Benjamin Colicoi Lizama. Todos los derechos reservados.</p>
+        </div>
+    </footer>
         </main>
 </body>
 </html>
